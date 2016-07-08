@@ -27,11 +27,15 @@ namespace NagWindow
 
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Close(object sender, RoutedEventArgs e)
         {
             this.Close();
 
         }
 
+        private void Button_Click_Reboot(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

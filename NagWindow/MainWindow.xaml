@@ -17,8 +17,8 @@
           System Updates have been installed and require a reboot in order be be applied.
                 </TextBlock>
                 <StackPanel Margin="20" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Reboot" Foreground="White" HorizontalAlignment="Left" Click="button_Click" Margin="0" VerticalAlignment="Bottom" Height="25" Width="48" />
-                    <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Remind Me Later" Foreground="White" HorizontalAlignment="Right" Click="button_Click" Margin="0" VerticalAlignment="Bottom" Height="25" Width="105" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" />
+                    <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Reboot" Foreground="White" HorizontalAlignment="Left" Click="Button_Click_Reboot" Margin="0" VerticalAlignment="Bottom" Height="25" Width="48" />
+                    <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Remind Me Later" Foreground="White" HorizontalAlignment="Right" Click="Button_Click_Close" Margin="0" VerticalAlignment="Bottom" Height="25" Width="105" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" />
                 </StackPanel>
             </StackPanel>
 
